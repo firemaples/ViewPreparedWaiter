@@ -89,7 +89,7 @@ public class ViewPreparedWaiter {
         return true;
     }
 
-    interface OnViewPrepared {
+    public interface OnViewPrepared {
         void onViewPrepared(View viewToWait);
     }
 }
